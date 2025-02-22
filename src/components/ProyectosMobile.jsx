@@ -36,7 +36,7 @@ const proyectos = [
       image: proyecto4,
       title: 'Cafe-Lite Ecommerce',
       description: 'Aplicación de venta de café con carrito de compras integrado. Permite explorar productos, agregar al carrito, gestionar pedidos y realizar pagos en un entorno intuitivo y moderno.',
-      link: 'https://task-flow-js.vercel.app/'
+      link: 'https://cafe-lite-ecommerce.vercel.app/'
     }
   ];
 
@@ -62,7 +62,7 @@ export const ProyectosMobile = () => {
     }
 
   return (
-    <div>
+    <div className="h-[100vh] relative py-10">
         <div onClick={() => handleNavToggle(nav, setNav)} className="cursor-pointer pb-2 px-4 flex justify-end">
             {!nav ? <IoMenuOutline size={30} className="sm:hidden text-[#D9D9D9]"/> : <IoCloseSharp size={30} className="sm:hidden absolute z-40 right-8 top-10 text-[#D9D9D9]"/>}
         </div>

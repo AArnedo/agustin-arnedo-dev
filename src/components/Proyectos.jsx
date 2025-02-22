@@ -30,7 +30,7 @@ const proyectos = [
       image: proyecto4,
       title: 'Cafe-Lite Ecommerce',
       description: 'Aplicación de venta de café con carrito de compras integrado. Permite explorar productos, agregar al carrito, gestionar pedidos y realizar pagos en un entorno intuitivo y moderno.',
-      link: 'https://task-flow-js.vercel.app/'
+      link: 'https://cafe-lite-ecommerce.vercel.app/'
     }
   ];
 

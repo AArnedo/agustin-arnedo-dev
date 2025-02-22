@@ -9,8 +9,8 @@ export const App = () => {
   return (
 
     <BrowserRouter>
-      <div className="relative flex mx-auto sm:px-14 md:py-10 py-8 px-4 items-center">
-        <div className="md:fixed sm:fixed w-full md:w-1/4">
+      <div className="relative h-[100vh] flex mx-auto sm:px-14 md:py-10 py-8 px-4 items-center">
+        <div className="w-full md:fixed sm:fixed md:w-1/4">
           <Hero />
         </div>
         <div className="lg:ml-[30%] lg:w-3/4 transition-transform duration-700 ease-in-out">
