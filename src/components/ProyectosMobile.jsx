@@ -9,6 +9,7 @@ import proyecto1 from '../assets/proyecto1.png'
 import proyecto2 from '../assets/proyecto2.png'
 import proyecto3 from '../assets/proyecto3.png'
 import proyecto4 from '../assets/proyecto4.png'
+import proyecto5 from '../assets/proyecto5.png'
 import logo from '../assets/logo.png'
 import { ContactosMobile } from "./ContactosMobile"
 
@@ -37,6 +38,12 @@ const proyectos = [
       title: 'Cafe-Lite Ecommerce',
       description: 'Aplicación de venta de café con carrito de compras integrado. Permite explorar productos, agregar al carrito, gestionar pedidos y realizar pagos en un entorno intuitivo y moderno.',
       link: 'https://cafe-lite-ecommerce.vercel.app/'
+    },
+    {
+      image: proyecto5,
+      title: 'Cafe Street',
+      description: 'Proyecto de practica en maquetacion Frontend a base de una plantilla en Figma, replicado completamente en codigo.',
+      link: 'https://street-cafe-ej.netlify.app/'
     }
   ];
 
